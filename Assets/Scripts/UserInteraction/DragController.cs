@@ -4,6 +4,9 @@ using UnityEngine.EventSystems;
 
 namespace SolitaireUndo.UserInteraction
 {
+    /// <summary>
+    /// Implementation of drag-and-drop functionality for cards.
+    /// </summary>
     public class DragController : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
     {
         private event Action<PointerEventData> _onBeginDrag;

@@ -2,6 +2,9 @@ using UnityEngine;
 
 namespace SolitaireUndo.UserInteraction
 {
+    /// <summary>
+    /// Snaps card positions to the stacks.
+    /// </summary>
     public class CardSnapper
     {
         private readonly RectTransform[] _snapPositions;

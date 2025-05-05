@@ -3,6 +3,9 @@ using Random = System.Random;
 
 namespace SolitaireUndo.Field
 {
+    /// <summary>
+    /// Generates a random sprite for a card on the field.
+    /// </summary>
     public class CardGenerator
     {
         private readonly FieldConfig _fieldConfig;
